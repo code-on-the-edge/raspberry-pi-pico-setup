@@ -50,3 +50,4 @@ Getting started with Raspberry Pi Pico-series
 
 Picotool
 * https://github.com/raspberrypi/picotool
+# raspberry-pi-BMP390-i2c
