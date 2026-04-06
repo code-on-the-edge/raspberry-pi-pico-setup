@@ -12,7 +12,7 @@ set(PICO_BOARD pico CACHE STRING "Board type")
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Project name and supported languages
-project(blink C CXX ASM)
+project(bmp390 C CXX ASM)
 
 # Set language standards
 set(CMAKE_C_STANDARD 11)
@@ -30,6 +30,7 @@ add_executable(${PROJECT_NAME}
 # Provides GPIO, timing (sleep_ms), stdio, etc.
 target_link_libraries(${PROJECT_NAME}
     pico_stdlib
+    hardware_i2c
 )
 
 # Enable USB serial output (printf over USB)
