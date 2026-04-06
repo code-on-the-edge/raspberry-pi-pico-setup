@@ -12,7 +12,7 @@ set(PICO_BOARD pico CACHE STRING "Board type")
 include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Project name and supported languages
-project(bmp390 C CXX ASM)
+project(blink C CXX ASM)
 
 # Set language standards
 set(CMAKE_C_STANDARD 11)
