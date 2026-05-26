@@ -54,6 +54,7 @@ make
 cd path/to/project/folder/
 mkdir build
 cd build
+source ~/.bashrc
 cmake ..
 make
 sudo /home/$USER/picotool/build/picotool load -f blink.uf2
